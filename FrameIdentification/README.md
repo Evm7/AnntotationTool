@@ -7,7 +7,7 @@ Our AnnotationTool is based on Python language and is very simple but useful. Ba
  "Frame Identification" relies on the important aspect that some times, when we are detecting and tracking objects in videos, we want to make sure that the object is detected approximately on first appearence, and mark as disappeared as soon as it goes off the image.
  
  ### Annotation.txt
- In order to so, it is necessary to have an annotation file for each video hich indicate all specific objects that appeared with some information for each of them:
+ In order to so, it is necessary to have an annotation file for each video which indicates all specific objects that appeared with some information for each of them:
  
   - Category of Object found
   - Identifier of the object
