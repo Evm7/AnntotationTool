@@ -9,5 +9,7 @@ Our AnnotationTool is based on Python language and is very simple but useful. Ba
  ### Category Identification
  "Category Identification" is simplier. The main objective of this script is to annotate the number of each type of object detected in a whole video. Therefore, we set some classes in a txt file and , through a button pressing menu, we can count all objects that appear in real time on the video.
 
-
+ ### Installation
+ All modules set in the requirements.txt file contain the exact version when the scripts were created. Updating should not suppose any problem but we cannot guarantee the best operation.
+ > pip install requirements.txt
   
