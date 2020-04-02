@@ -15,6 +15,9 @@ Our AnnotationTool is based on Python language and is very simple but useful. Ba
   - End Frame : last appearence
   
   ![Annotation TXT example](imgs/Annotation_txt.PNG)
+  
+  The outputs are automatically saved on the directory frame_annotations. If this directory does not exist, an error will raise.
+  The name of the annotation output will be the name of the input video with .txt extension.
 
   
   ### How to execute it
