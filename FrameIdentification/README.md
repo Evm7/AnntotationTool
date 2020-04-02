@@ -14,6 +14,9 @@ Our AnnotationTool is based on Python language and is very simple but useful. Ba
   - Start Frame : first appearence
   - End Frame : last appearence
   
+  ![Annotation TXT example](imgs/Annotation_txt.PNG)
+
+  
   ### How to execute it
   In order to execute the script it is necessary to use the following command:
   > python frame_annotation.py -v <INPUT_VIDEO_PATH> [--delay DELAY] [--scale SCALE] [--marking MARKING]
