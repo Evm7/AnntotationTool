@@ -26,20 +26,35 @@ Our AnnotationTool is based on Python language and is very simple but useful. Ba
   ### How it really works?
 When we execute the script, it displays the video in a inversely proportional resolution (by default dividing into a scale =3) and with a delay between frames of DISPLAY (by default =0.1 seconds), to enable stopping video easier.
 When the video starts playing there will raise a pop up as follows:
-
 We can annotate all categories we are currently seeing in the display at first frame. Click on OK at each category.
 When we have introduced all categories, click on Cancel or introduce word “quit”.
 
+![First Start](imgs/FirstStart.PNG)
+
 When we click on Cancel for the first time, the video will start to play in slow motion. If we detect the appearance of a new object to the video, click letter “s” and another box for START frame will appear: then we annotate the class of the object again.
+
+
+![Start](imgs/Start.PNG)
 
 There is also another possibility, if an object already identified disappears from the display, we have to click on letter “f” and annotate the class that has disappeared:
 
-However, in order to identify exactly which object we need to annotate as disappear, it is important to stipulate the ID afterwards: a pop up displays announcing that we have to choose the correct ID of the object we have said it has disappeared
+
+![End](imgs/End.PNG)
+
+However, in order to identify exactly which object we need to annotate as disappear, it is important to stipulate the ID afterwards: a pop up displays announcing that we have to choose the correct ID of the object we have said it has disappeared.
+
+
+![End Identfication](imgs/End_index.PNG)
+
 
 ### MARKING option
 We thought that one possible drawback may well consist on not remembering the exact ID of the object we wanted to make disappear. Therefore, we created a Boolean argument called “Marking” that, if we set it to True, it allows us to crap the object by own selection after pressing “s” and introducing the category. After selecting the region by pressing with the left mouse button and holding to make the rectangle, we need to press “c” to continue.
 
+![Bounding Box Selection](imgs/capturing.PNG)
+
 When letter “c” is pressed there is a display of an image on the left side:
+
+![Bounding Box Selection](imgs/capturing_cell.PNG)
 
 Which contains just the cropped image of the object with the name and the id as title of the windows.
 
